@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Object.ExtentReporterNG" />
+        <listener class-name="Listners.CustomListener" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="TestOnChrome">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="Scenarios.RegistrationUser"> </class>
+            <class name="Scenarios.LoginToPage"> </class>
+        </classes>
+    </test>
+</suite>
