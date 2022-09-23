@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="45919" started-at="2022-09-23T18:33:03 IST" finished-at="2022-09-23T18:33:49 IST">
+    <groups>
+    </groups>
+    <test name="D:/E-Learning/Rest API Course/QA_Assignment" duration-ms="45919" started-at="2022-09-23T18:33:03 IST" finished-at="2022-09-23T18:33:49 IST">
+      <class name="Scenarios.LoginToPage">
+        <test-method status="PASS" signature="login_user()[pri:0, instance:Scenarios.LoginToPage@a38d7a3]" name="login_user" duration-ms="1475" started-at="2022-09-23T18:33:24 IST" finished-at="2022-09-23T18:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_user -->
+        <test-method status="PASS" signature="select_fragrance_catagory()[pri:1, instance:Scenarios.LoginToPage@a38d7a3]" name="select_fragrance_catagory" duration-ms="258" started-at="2022-09-23T18:33:25 IST" finished-at="2022-09-23T18:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_fragrance_catagory -->
+        <test-method status="PASS" signature="select_fragrance_sub_category()[pri:2, instance:Scenarios.LoginToPage@a38d7a3]" name="select_fragrance_sub_category" duration-ms="880" started-at="2022-09-23T18:33:26 IST" finished-at="2022-09-23T18:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_fragrance_sub_category -->
+        <test-method status="PASS" signature="select_perfume()[pri:3, instance:Scenarios.LoginToPage@a38d7a3]" name="select_perfume" duration-ms="11001" started-at="2022-09-23T18:33:26 IST" finished-at="2022-09-23T18:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_perfume -->
+        <test-method status="PASS" signature="product_checkout()[pri:4, instance:Scenarios.LoginToPage@a38d7a3]" name="product_checkout" duration-ms="11549" started-at="2022-09-23T18:33:37 IST" finished-at="2022-09-23T18:33:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product_checkout -->
+      </class> <!-- Scenarios.LoginToPage -->
+      <class name="Scenarios.RegistrationUser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Scenarios.RegistrationUser@262b2c86]" name="setUp" is-config="true" duration-ms="8735" started-at="2022-09-23T18:32:54 IST" finished-at="2022-09-23T18:33:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="register_new_user()[pri:0, instance:Scenarios.RegistrationUser@262b2c86]" name="register_new_user" duration-ms="20724" started-at="2022-09-23T18:33:03 IST" finished-at="2022-09-23T18:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_new_user -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Scenarios.RegistrationUser@262b2c86]" name="quitDriver" is-config="true" duration-ms="753" started-at="2022-09-23T18:33:49 IST" finished-at="2022-09-23T18:33:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Scenarios.RegistrationUser -->
+    </test> <!-- D:/E-Learning/Rest API Course/QA_Assignment -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
