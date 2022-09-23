@@ -7,8 +7,9 @@
         <listener class-name="Listners.CustomListener" />
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="TestOnChrome">
-        <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+
+    <test verbose="2" preserve-order="true" name="D:/E-Learning/Rest API Course/QA_Assignment">
         <classes>
             <class name="Scenarios.RegistrationUser"> </class>
             <class name="Scenarios.LoginToPage"> </class>

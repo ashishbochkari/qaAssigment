@@ -30,7 +30,7 @@ public class HomePageAct extends TestBase{
             System.out.println(selectCatagory.size());
             System.out.println((selectCatagory.get(4).getText()));
             for (int i = 0 ; i<selectCatagory.size(); i++){
-                System.out.println(selectCatagory.get(i).getText());
+                System.out.println("Item Name is : "+selectCatagory.get(i).getText());
             }
             Actions actions = new Actions(driver);
             actions.moveToElement(selectCatagory.get(4)).contextClick().build().perform();
@@ -45,7 +45,7 @@ public class HomePageAct extends TestBase{
             WebElement Mens= driver.findElement(SubCatory);
             Actions actions = new Actions(driver);
             actions.moveToElement(Mens).click().build().perform();
-            System.out.println(driver.getTitle());
+            System.out.println("Page title is "+driver.getTitle());
         } catch (Exception e) {
             System.out.println("Exception caught " + e.getMessage());
         }
@@ -57,7 +57,7 @@ public class HomePageAct extends TestBase{
             List<WebElement> pefumes = driver.findElements(By.xpath("//body[@class='product-category']/div/div[2]/div/div/div/div/div[2]/div"));
             System.out.println(pefumes.size());
             for (int i = 0 ; i < pefumes.size(); i++){
-                System.out.println(pefumes.get(i).getText());
+                System.out.println("Perfume Name : "+ pefumes.get(i).getText());
             }
             Thread.sleep(5000);
             pefumes.get(1).click();

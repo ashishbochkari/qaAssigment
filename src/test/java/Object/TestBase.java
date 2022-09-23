@@ -25,8 +25,11 @@ public class TestBase {
     ConfigReader configReader;
 
 
+    /**
+     * @param browserName browserName
+     */
+    @BeforeSuite(alwaysRun = true)
     @Parameters("browserName")
-    @BeforeSuite
     public void setUp(String browserName)
     {
         System.out.println("Browser name is " + browserName);
@@ -63,7 +66,7 @@ public class TestBase {
         }
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void quitDriver(){
         driver.quit();
     }

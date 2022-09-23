@@ -37,7 +37,7 @@ public class LoginDetailsPage extends TestBase{
             String title = driver.getTitle();
             System.out.println("Page Title is :" + title);
             Assert.assertEquals(title, "My Account");
-            log(Status.PASS, "Assertion Passed");
+            System.out.println("Page title matched");
         }catch (Exception e){
             e.printStackTrace();
         }

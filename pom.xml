@@ -131,5 +131,37 @@
         </dependency>
 
     </dependencies>
+    <build>
+    <pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <!-- TestNG XML file to run the suite -->
+                        <suiteXmlFile>${project.basedir}/src/main/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <path.prefix>${project.build.directory}/src/test</path.prefix>
+                        <webdriver.runlocal>true</webdriver.runlocal>
+                        <retryCount>0</retryCount>
+                        <retryInterval>5000</retryInterval>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <!-- put your configurations here -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </pluginManagement>
+    </build>
 
 </project>

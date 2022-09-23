@@ -47,6 +47,7 @@ public class ProductCheckoutPage extends TestBase{
             String lastTitle = driver.getTitle();
             System.out.println("Page Title is "+lastTitle);
             Assert.assertEquals(lastTitle, "Your Order Has Been Processed!");
+            System.out.println("Page Title is Verified");
 
         } catch (InterruptedException e) {
             System.out.println("Exception caught " + e.getMessage());
