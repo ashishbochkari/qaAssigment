@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
 
     <listeners>
-        <listener class-name="Object.ExtentReporterNG" />
+        <listener class-name="Listners.ExtentReporterNG" />
         <listener class-name="Listners.CustomListener" />
     </listeners>
 

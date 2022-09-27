@@ -7,7 +7,7 @@ Utils\utility.class
 Utils\CaptureScreenShots.class
 Object\RegistrationDetailsPage.class
 Listners\CustomListener.class
+Listners\ExtentReporterNG.class
 Scenarios\RegistrationUser.class
 Object\HomePageAct.class
-Object\ExtentReporterNG.class
 Object\ProductCheckoutPage.class

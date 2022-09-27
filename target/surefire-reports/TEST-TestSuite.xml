@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="57.13" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="66.172" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\E-Learning\Rest API Course\QA_Assignment"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ashish.bochkari\.jenkins\workspace\Job1"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\E-Learning\Rest API Course\QA_Assignment"/>
+    <property name="user.dir" value="C:\Users\ashish.bochkari\.jenkins\workspace\Job1"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\IT Software\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\IT Software\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\IT Software\apache-maven-3.8.6\bin;C:\Users\ashish.bochkari\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\IT Software\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk1.8.0_202/bin;C:\Program Files\Java\jdk1.8.0_202/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\IT Software\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\IT Software\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Users\ashish.bochkari\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\IT Software\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f D:\E-Learning\Rest API Course\QA_Assignment\pom.xml clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,21 +53,19 @@
     <property name="java.version" value="1.8.0_202"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\IT Software\apache-maven-3.8.6"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="register_new_user" classname="Scenarios.RegistrationUser" time="20.724"/>
-  <testcase name="login_user" classname="Scenarios.LoginToPage" time="1.476"/>
-  <testcase name="select_fragrance_catagory" classname="Scenarios.LoginToPage" time="0.258"/>
-  <testcase name="select_fragrance_sub_category" classname="Scenarios.LoginToPage" time="0.88"/>
-  <testcase name="select_perfume" classname="Scenarios.LoginToPage" time="11.002"/>
-  <testcase name="product_checkout" classname="Scenarios.LoginToPage" time="11.55"/>
+  <testcase name="register_new_user" classname="Scenarios.RegistrationUser" time="23.154"/>
+  <testcase name="login_user" classname="Scenarios.LoginToPage" time="1.641"/>
+  <testcase name="select_fragrance_catagory" classname="Scenarios.LoginToPage" time="0.255"/>
+  <testcase name="select_fragrance_sub_category" classname="Scenarios.LoginToPage" time="1.038"/>
+  <testcase name="select_perfume" classname="Scenarios.LoginToPage" time="11.573"/>
+  <testcase name="product_checkout" classname="Scenarios.LoginToPage" time="13.66"/>
 </testsuite>

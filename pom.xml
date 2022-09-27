@@ -129,7 +129,26 @@
             <artifactId>extentreports</artifactId>
             <version>2.41.2</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-reload4j</artifactId>
+            <version>2.0.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
     <pluginManagement>
@@ -151,15 +170,15 @@
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <!-- put your configurations here -->
+                    &lt;!&ndash; put your configurations here &ndash;&gt;
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </pluginManagement>
     </build>

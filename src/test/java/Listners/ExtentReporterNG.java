@@ -1,4 +1,4 @@
-package Object;
+package Listners;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -18,7 +18,7 @@ public class ExtentReporterNG implements IReporter {
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator
-				+ "./Reports/Extent.html", true);
+				+ "./Reports/NewExtent.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
